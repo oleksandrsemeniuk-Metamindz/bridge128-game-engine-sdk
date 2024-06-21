@@ -1,4 +1,20 @@
 {
+  "name": "@bridge128/game-engine-sdk",
+  "version": "1.0.0",
+  "description": "SDK package to communicate with Bridge128 Game Engine API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "keywords": [
+    "bridge",
+    "bridge128",
+    "game",
+    "engine",
+    "cards"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.6",
